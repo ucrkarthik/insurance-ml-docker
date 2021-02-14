@@ -19,7 +19,7 @@ templates = Jinja2Templates(directory="templates/")
 #<!-- <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet" type='text/css'> -->
 
 
-model = load_model('deployment_28042020')
+model = load_model('deployment_model')
 cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
 @app.get("/")
