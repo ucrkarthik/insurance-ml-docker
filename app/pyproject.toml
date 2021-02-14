@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "insurance-ml-docker"
+version = "0.1.0"
+description = ""
+authors = ["Karthik Venkatesan <kavenkat@adobe.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.60.1"
+Jinja2 = "^2.11.3"
+python-multipart = "^0.0.5"
+aiofiles = "^0.6.0"
+pycaret = "^2.2.3"
+pathlib = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
