@@ -4,7 +4,7 @@
 An insurance company wants to improve its cash flow forecasting by better predicting patient charges using demographic and basic patient health risk metrics at the time of hospitalization.
 
 ## Objective
-To build a web application where demographic and health information of a patient is entered in a web form to predict charges.
+To build an application with an web interface where demographic and health information of a patient is entered in a web form to predict charges. The application will use PyCaret machine learning model, that will include preprocessing transformations and a regression model to predict patient hospitalization charges based on demographic and basic patient health risk metrics such as age, BMI, smoking status etc.
 
 ## Model Training and Validation
 PyCaret in Google Colab Notebook was used to develop machine learning regression models. More details can be found in the InsuranceCompaany.ipynb file.
@@ -48,10 +48,10 @@ That image is what actually does all the work.
 This image just installs FastAPI and has the documentation specifically targeted at FastAPI.
 
 ## Quick Start
-### Build your Image
+### Build the Image
 
 * Go to your project directory.
-* You should now have a directory structure like:
+* The directory structure should like as follows:
 
 ```
 .
@@ -73,7 +73,7 @@ This image just installs FastAPI and has the documentation specifically targeted
 ```
 
 * Go to the project directory (in where you see the `Dockerfile` is, containing your `app` directory).
-* Build your FastAPI image:
+* Build the FastAPI image:
 
 ```bash
 docker build -t insurance-ml-image ./
